@@ -10,7 +10,7 @@ function App() {
   <main>
     <section className='container'><h3>{people.length} Birthdays Today</h3>
     <List people={people} />
-    <Button variant='contained' onClick={()=> console.log('You Clicked Me')}>Clear All</Button>
+    <Button variant='contained' onClick={()=> setpeople([])('You Clicked Me')}>Clear All</Button>
     </section>
     
     
